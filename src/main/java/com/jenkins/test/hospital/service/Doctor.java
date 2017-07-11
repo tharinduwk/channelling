@@ -19,7 +19,7 @@ public class Doctor {
 
 		Response response = new Response();
 		response.setCode(200);
-		response.setMessage("Doctor " + doctorDetails.getFname() + " " + doctorDetails.getLname() + " with SLMC - " + doctorDetails.getSlmcNo() + " registered successfully");
+		response.setMessage("Doctor - " + doctorDetails.getFname() + " " + doctorDetails.getLname() + " with SLMC - " + doctorDetails.getSlmcNo() + " - registered successfully");
 
 		return response;
 
